@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Leader Logist - доставка строительных материалов, перевозка грузов самосвалами, услуги фур и спецтехники по Шымкенту и Казахстану.">
+<title>Leader Logist - Транспортно-логистические услуги Шымкента и Казахстана</title>
+<style>
+:root{--bg:#fff;--alt:#f3f5f8;--text:#1b2430;--muted:#5b6675;--accent:#e8731a;--dark:#14202e;--card:#fff;--line:#dfe4ea}
+@media (prefers-color-scheme:dark){:root{--bg:#10171f;--alt:#17212c;--text:#e8edf2;--muted:#9aa7b6;--card:#1c2733;--line:#2b3846}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:10;background:var(--dark);color:#fff}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.1rem}
+.logo i{font-style:normal;width:34px;height:34px;border-radius:8px;background:var(--accent);display:grid;place-items:center}
+nav{display:flex;gap:18px;overflow-x:auto;font-size:.95rem}
+nav a{white-space:nowrap;opacity:.85}nav a:hover{opacity:1;color:var(--accent)}
+.hero{background:linear-gradient(135deg,#14202e,#25405c);color:#fff;text-align:center;padding:96px 0}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);margin-bottom:16px}
+.hero p{max-width:640px;margin:0 auto 28px;opacity:.9;font-size:1.1rem}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 28px;border-radius:8px;font-weight:600}
+.btn:hover{filter:brightness(1.1)}
+section{padding:64px 0}
+section.alt{background:var(--alt)}
+h2{text-align:center;font-size:1.9rem;margin-bottom:36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
+.card .ic{font-size:2rem;margin-bottom:10px}
+.card h3{font-size:1.1rem;margin-bottom:6px}
+.card p{color:var(--muted);font-size:.95rem}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px}
+.gallery div{aspect-ratio:4/3;border-radius:12px;background:var(--dark);display:grid;place-items:center;font-size:3rem}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
+.about h3{font-size:1.4rem;margin-bottom:12px}
+.about ul{margin:12px 0 0 20px;color:var(--muted)}
+.badge{background:var(--accent);color:#fff;border-radius:16px;padding:32px;text-align:center;font-size:1.1rem}
+.badge span{display:block;font-size:3rem}
+.stars{color:#f5b301;letter-spacing:2px;margin-bottom:8px}
+.rev p{font-style:italic;margin-bottom:12px}
+.rev b{display:block}.rev small{color:var(--muted)}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-bottom:12px;max-width:800px;margin-inline:auto}
+summary{cursor:pointer;font-weight:600}
+details p{margin-top:10px;color:var(--muted)}
+.contact-sub{text-align:center;color:var(--muted);margin:-24px 0 32px}
+.contact .card{text-align:center}
+.contact .card a{font-weight:600;color:var(--accent)}
+footer{background:var(--dark);color:#cfd8e2;text-align:center;padding:36px 20px;font-size:.9rem}
+footer b{display:block;color:#fff;font-size:1.1rem;margin-bottom:6px}
+.float{position:fixed;right:16px;bottom:16px;display:flex;flex-direction:column;gap:10px}
+.float a{width:48px;height:48px;border-radius:50%;background:var(--accent);display:grid;place-items:center;font-size:1.3rem;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+@media(max-width:720px){.about{grid-template-columns:1fr}.hero{padding:64px 0}}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#"><i>L</i>Leader Logist</a>
+  <nav>
+    <a href="#services">Услуги</a><a href="#gallery">Работы</a><a href="#about">О нас</a><a href="#reviews">Отзывы</a><a href="#contact">Контакты</a>
+  </nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <h1>Leader Logist</h1>
+  <p>Быстрая и надежная доставка строительных материалов и грузов по Шымкенту и всему Казахстану</p>
+  <a class="btn" href="#contact">Заказать доставку</a>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <h2>Наши услуги</h2>
+  <div class="grid">
+    <div class="card"><div class="ic">🏗️</div><h3>Доставка строительных материалов</h3><p>Доставка песка, щебня, отсева, клинца и грунта на строительные объекты, заводы и склады</p></div>
+    <div class="card"><div class="ic">🚛</div><h3>Перевозка самосвалами</h3><p>Услуги самосвалов для перевозки больших объемов строительных материалов и грузов</p></div>
+    <div class="card"><div class="ic">🔧</div><h3>Услуги спецтехники</h3><p>Аренда фур, шалощ и другой специальной техники для любых видов грузов</p></div>
+    <div class="card"><div class="ic">📦</div><h3>Транспортировка больших объемов</h3><p>Профессиональная организация доставки больших партий товара и материалов</p></div>
+    <div class="card"><div class="ic">⚡</div><h3>Быстрая доставка</h3><p>Оперативная доставка по Шымкенту и регионам Казахстана в кратчайшие сроки</p></div>
+    <div class="card"><div class="ic">💼</div><h3>Профессиональный сервис</h3><p>Опытная команда, современный транспорт, надежные условия доставки</p></div>
+  </div>
+</div></section>
+
+<section id="gallery" class="alt"><div class="wrap">
+  <h2>Наши работы</h2>
+  <div class="gallery"><div>🚚</div><div>📦</div><div>🏗️</div><div>🛣️</div><div>⚙️</div><div>🏢</div></div>
+</div></section>
+
+<section id="about"><div class="wrap about">
+  <div>
+    <h2 style="text-align:left;margin-bottom:16px">О компании</h2>
+    <h3>Leader Logist — ваш надежный логистический партнер</h3>
+    <p style="color:var(--muted)">Мы предоставляем полный спектр транспортно-логистических услуг для строительства, производства и торговли. Наша компания работает в Шымкенте и по всему Казахстану.</p>
+    <p style="margin-top:12px"><b>С нами вы получаете:</b></p>
+    <ul>
+      <li>Быструю доставку в кратчайшие сроки</li>
+      <li>Полную информацию о ваших грузах</li>
+      <li>Подходящий транспорт для любых объемов</li>
+      <li>Профессиональное обращение с материалами</li>
+      <li>Прозрачные условия доставки</li>
+      <li>Квалифицированную команду водителей</li>
+    </ul>
+  </div>
+  <div class="badge"><span>🏆</span>Более 10 лет опыта в логистике и транспортировке</div>
+</div></section>
+
+<section id="reviews" class="alt"><div class="wrap">
+  <h2>Отзывы клиентов</h2>
+  <div class="grid">
+    <div class="card rev"><div class="stars">★★★★★</div><p>"Отличный сервис! Доставили строительные материалы точно в срок. Водители профессионалы, материал целый. Рекомендуем!"</p><b>Азамат Ахмедов</b><small>Строительная компания 'Дом+Плюс'</small></div>
+    <div class="card rev"><div class="stars">★★★★★</div><p>"Leader Logist помогли нам доставить оборудование на завод. Быстро, надежно, по хорошей цене. Спасибо большое!"</p><b>Салихов Руслан</b><small>ЛТД 'Казах Индустри'</small></div>
+    <div class="card rev"><div class="stars">★★★★★</div><p>"Работаем с Leader Logist уже 5 лет. Всегда выручают в срочных доставках. Настоящие профессионалы своего дела!"</p><b>Гульнур Ниязова</b><small>Торговая компания 'Универсал Трейд'</small></div>
+  </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2>Часто задаваемые вопросы</h2>
+  <details><summary>Какой объем материала вы можете доставить?</summary><p>Мы доставляем грузы любого объема — от небольших партий до полных самосвалов и фур. Имеем парк техники разного грузоподъемности. Для больших объемов предложим оптимальное решение по доставке.</p></details>
+  <details><summary>Сколько стоит доставка?</summary><p>Стоимость доставки зависит от объема груза, расстояния и типа материала. Позвоните нам или оставьте заявку — мы рассчитаем точную цену для вашего груза и предложим лучшие условия.</p></details>
+  <details><summary>Как быстро вы доставляете грузы?</summary><p>Доставка в Шымкенте обычно занимает 1-2 дня, по Казахстану — от 3 до 7 дней в зависимости от расстояния. Для срочных доставок есть ускоренные варианты.</p></details>
+  <details><summary>Какие материалы вы доставляете?</summary><p>Мы специализируемся на доставке строительных материалов: песок, щебень, отсев, кличка, грунт. Также берем любые другие грузы согласно требованиям перевозки.</p></details>
+  <details><summary>Как сделать заказ?</summary><p>Позвоните нам по номеру +7 702 510 78 99 или +7 708 510 78 99, напишите в Telegram/WhatsApp или заполните форму заявки. Укажите объем груза, место отправления и доставки — мы быстро обработаем заказ.</p></details>
+</div></section>
+
+<section id="contact" class="alt contact"><div class="wrap">
+  <h2>Контактная информация</h2>
+  <p class="contact-sub">Свяжитесь с нами удобным для вас способом</p>
+  <div class="grid">
+    <div class="card"><div class="ic">📞</div><a href="tel:+77025107899">+7 702 510 78 99</a><p>Основной номер</p></div>
+    <div class="card"><div class="ic">☎️</div><a href="tel:+77085107899">+7 708 510 78 99</a><p>Дополнительный номер</p></div>
+    <div class="card"><div class="ic">💬</div><a href="https://wa.me/77025107899">WhatsApp</a><p>Быстрый чат в мессенджере</p></div>
+    <div class="card"><div class="ic">✈️</div><a href="https://t.me/leaderlogist">Telegram</a><p>Сообщение в Telegram</p></div>
+    <div class="card"><div class="ic">📱</div><a href="https://instagram.com/leaderlogist">Instagram</a><p>Наши работы и новости</p></div>
+    <div class="card"><div class="ic">🎵</div><a href="https://tiktok.com/@leaderlogist">TikTok</a><p>Видео доставок и обзоры</p></div>
+  </div>
+</div></section>
+
+<footer>
+  <b>Leader Logist</b>
+  Транспортно-логистические услуги Шымкента и Казахстана<br>
+  Доставка строительных материалов • Перевозка грузов • Услуги спецтехники<br><br>
+  © 2024 Leader Logist. Все права защищены.
+</footer>
+
+<div class="float">
+  <a href="tel:+77025107899" title="Позвонить">☎️</a>
+  <a href="https://wa.me/77025107899" title="WhatsApp">💬</a>
+  <a href="https://t.me/leaderlogist" title="Telegram">✈️</a>
+</div>
+</body>
+</html>
